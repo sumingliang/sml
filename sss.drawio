@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T07:57:53.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D8e6PrhV5wcsVdTK3J7l" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T08:27:46.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rxd5oRB03Ss47jZTdvxU" version="22.1.15" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2340" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -302,8 +302,42 @@
         <mxCell id="RiOEO5vuXc6-h3uHZ76g-44" value="展示语音图标" style="whiteSpace=wrap;html=1;align=center;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-580" y="742.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RiOEO5vuXc6-h3uHZ76g-46" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RiOEO5vuXc6-h3uHZ76g-46" target="RiOEO5vuXc6-h3uHZ76g-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-46" value="读取选项字段&lt;br&gt;options" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1210" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RiOEO5vuXc6-h3uHZ76g-51" target="RiOEO5vuXc6-h3uHZ76g-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RiOEO5vuXc6-h3uHZ76g-54">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-51" value="读取文本text字段" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1020" y="870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RiOEO5vuXc6-h3uHZ76g-53" target="RiOEO5vuXc6-h3uHZ76g-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-53" value="显示文本选项" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-850" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RiOEO5vuXc6-h3uHZ76g-55" target="RiOEO5vuXc6-h3uHZ76g-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-62" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RiOEO5vuXc6-h3uHZ76g-58">
+          <mxGeometry x="-0.1467" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-55" value="读取音频字段&lt;br&gt;audio" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-630" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RiOEO5vuXc6-h3uHZ76g-57" value="显示音频图标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
